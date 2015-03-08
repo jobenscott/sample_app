@@ -1,4 +1,4 @@
 class StaticPagesController < ApplicationController
-  def ../..
-  end
+  #def .../...
+  #end
 end
