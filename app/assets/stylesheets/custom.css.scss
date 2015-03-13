@@ -1,10 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 40px;
+  background-color: #6C4B5B
+
+}
+
+.navbar-inverse {
+  background-color: #531936
+
+}
+
+.dropdown {
+  color: white;
+  background-color: black;
+  float: right;
+  margin-right: 40px;
+  margin-top: 7px;
+}
+
+.dropdown-menu {
+  min-width: 55px;
 }
 
 section {
@@ -17,12 +37,38 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
+ h1 {
   margin-bottom: 10px;
+  }
 }
 
+.jumbotron {
+  background-color: #E2DBDE;
+}
+
+.jumbotron h2 a {
+  background: transparent;
+  text-decoration: none;
+  color: #F4F4F4
+}
+
+.jumbotron h2 a:hover {
+  color: #DDDDDD;
+  background: transparent;
+}
+
+  .jumbotron a {
+    color: rgba(255, 232, 242, 0.60);
+  background-color: #423242;
+  border-color: #E2DBDE;
+}
+
+.jumbotron a:hover {
+  color: rgba(255, 232, 242, 0.50);
+    background-color: #352235;
+    border-color: #E2DBDE;
+
+}
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +91,7 @@ h2 {
   color: #777;
 }
 
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -59,40 +106,35 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
-
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 /* footer */
+
+
 
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }

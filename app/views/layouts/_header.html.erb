@@ -1,12 +1,21 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-     <%= link_to "sample app", root_path, id: "logo" %>
+     <%= link_to "Docile", root_path, id: "logo" %>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",    root_path %></li>
-        <li><%= link_to "Help",    help_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
+     <div class="dropdown">
+     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+
+      More...
+      
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li><%= link_to "",    root_path, class: "glyphicon glyphicon-home" %></li>
+        <li><%= link_to "",    help_path, class: "glyphicon glyphicon-tree-conifer" %></li>
+        <li><%= link_to "", '#', class: "glyphicon glyphicon-user" %></li>
       </ul>
     </nav>
   </div>
 </header>
+
+
