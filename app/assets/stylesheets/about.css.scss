@@ -1,0 +1,233 @@
+body {
+  
+   
+}
+
+body img {
+   width: 100%;
+   height: 100%;
+
+}
+
+refdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 140;
+    height: 100;
+    /*border-radius: ;
+    border: ;*/
+    background-color: black;
+    
+}
+
+
+.hoverBoxMain {
+    width: 303;
+    height: 70;
+    border-radius: 2px;
+    border: solid #4F4F59;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 33px;
+    left: 485px;
+
+}
+
+.hoverBoxMain p {
+    position: absolute;
+    top: -20%;
+    left: 22%;
+    color: #333333;
+    font-family: Lucida;
+    font-size: 2em;
+}
+
+border1 {
+    width: 1230;
+    height: 800;
+    border: solid #4F4F59 3px;
+    position: absolute;
+    top: 89;
+    left: 15;
+    
+    
+    
+
+
+}
+
+#div1a {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #BD965F;
+  position: absolute;
+  top: -2px;
+  left: 400;
+}
+
+
+#div1 {
+    width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #4F4F59;
+  position: absolute;
+  top: -10px;
+  left: 400;
+}
+
+#div2 {
+  content: '';
+  position: absolute;
+  left: 400;
+  top: 90px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #71717F;
+}
+
+#div2a {
+    content: '';
+  position: absolute;
+  left: 400px;
+  top: 98px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #BD965F; 
+}
+
+#div3a {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #BD965F;
+  position: absolute;
+  top: -2px;
+  right: 400px;
+}
+
+#div3 {
+    width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #4F4F59;
+  position: absolute;
+  top: -10px;
+  right: 400px;
+}
+
+#div4 {
+  content: '';
+  position: absolute;
+  right: 400px;
+  top: 90px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #71717F;
+}
+
+#div4a {
+    content: '';
+  position: absolute;
+  right: 400px;
+  top: 98px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #BD965F; 
+}
+
+
+
+#infoID {
+    background-color: white;
+    width: 710;
+    height: 300;
+    position: absolute;
+    top: 28%;
+    left: 22%;
+    border-radius: 25px;
+    border: solid 2px
+    
+}
+
+#infoID img {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 25;
+    left: 45;
+    border-radius: 25px;
+    border: solid 1px;
+}
+
+#myName {
+    background-color: white;
+    width: 190;
+    height: 50;
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    border-radius: 5px;
+    border: solid 1px
+}
+
+#myName h3 {
+    position: absolute;
+    left: 17%;
+    top: -5%;
+
+}
+
+#aboutMe {
+    background-color: white;
+    width: 340;
+    height: 221;
+    position: absolute;
+    top: 5%;
+    left: 44%;
+    
+}
+
+#goals {
+    background-color: #4180FF;
+    width: 710;
+    height: 130;
+    position: absolute;
+    top: 78%;
+    left: 22%;
+    border-radius: 25px;
+}
+
+#goalsHeader {
+    width: 190;
+    height: 50;
+    position: absolute;
+    top: 27%;
+    left: 8%;
+    
+}
+
+#goalsHeader h1 {
+    position: absolute;
+    left: 17%;
+    top: -15%;   
+}
+
+#goalsActual {
+    width: 250;
+    height: 105;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+#goalsActual ul {
+    position: absolute;
+    left: 5%;
+    font-size: 20
+}
